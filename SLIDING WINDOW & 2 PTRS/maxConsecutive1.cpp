@@ -4,6 +4,8 @@ using namespace std;
 
 // Problem: Given a binary array nums and an integer k, return the length of the longest subarray that contains at most k zeros.
 // Approach: Use a sliding window technique to maintain a window that contains at most k zeros.
+// TC : O(2n), where n is the length of the input array.
+// SC : O(1), since we are using a constant amount of space for variables.
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
